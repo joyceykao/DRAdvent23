@@ -24,6 +24,7 @@ p {
   font-family: Roboto;
 
 }
+
 .card-img-top {
   width: 90%;
   margin: 16px;
@@ -35,6 +36,11 @@ p {
 
 .navbar-custom {
   font-family: Univers !important;
-  background: #e8dbd7 !important;
+  background: #78648b !important;
+}
+
+.btn-primary{
+  background-color: #eb8599 !important;
+  border-color: #eb8599 !important;
 }
 
