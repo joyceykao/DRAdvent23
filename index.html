@@ -40,6 +40,7 @@
     <p>Welcome to the 2023 DRAdvent Calendar of the Digital Research Academy!</p>
 
     <div class="container align-items-center d-flex flex-column p-3">
+      <!-- DECEMBER 1 -->
       <div class="card mb-3" style="width: 18rem;">
         <a id="dec1card"><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
@@ -47,12 +48,15 @@
           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
           </p> -->
           <p class="d-inline-flex gap-1">
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dec1"
+            <button class="btn btn-primary visually-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dec1"
               aria-expanded="false" aria-controls="dec1">
-              Open (Science) me!
+              Open (Science) me! <br>
+              <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
             </button>
           </p>
-          <div class="collapse" id="dec1">
+          <div class="collapse.show" id="dec1">
             <div class="card card-body">
               Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
               activates the relevant trigger.
@@ -60,7 +64,7 @@
           </div>
         </div>
       </div>
-
+      <!-- DECEMBER 2 -->
       <div class="card mb-3" style="width: 18rem;">
         <a id="dec2card"><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
@@ -68,7 +72,7 @@
           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
               </p> -->
           <p class="d-inline-flex gap-1">
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dec2"
+            <button class="btn btn-primary visually-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dec2"
               aria-expanded="false" aria-controls="dec2">
               Open (Science) me! <br>
               <div class="spinner-grow text-danger" role="status">
@@ -76,7 +80,7 @@
               </div>
             </button>
           </p>
-          <div class="collapse" id="dec2">
+          <div class="collapse.show" id="dec2">
             <div class="card card-body">
               Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
               activates the relevant trigger.
@@ -84,7 +88,7 @@
           </div>
         </div>
       </div>
-
+      <!-- DECEMBER 3 -->
       <div class="card mb-3" style="width: 18rem;">
         <a id="dec3card"></a><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
@@ -94,7 +98,10 @@
           <p class="d-inline-flex gap-1">
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dec3"
               aria-expanded="false" aria-controls="dec3">
-              Open (Science) me!
+              Open (Science) me! <br>
+              <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
             </button>
           </p>
           <div class="collapse" id="dec3">
