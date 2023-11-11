@@ -10,6 +10,7 @@
 
 body {
   font-family: Roboto;
+  background-color: #e7f1e7;
 
 }
 
@@ -23,8 +24,17 @@ p {
   font-family: Roboto;
 
 }
+.card-img-top {
+  width: 90%;
+  margin: 16px;
+}
 
-nav {
-  font-family: Univers;
+.card {
+  background: #f1f0eb !important;
+}
+
+.navbar-custom {
+  font-family: Univers !important;
+  background: #e8dbd7 !important;
 }
 
