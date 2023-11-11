@@ -5,9 +5,6 @@
 <head>
   <meta charset="UTF-8">
   <title>DRAdvent Calendar 2023</title>
-
-
-
   <link rel="icon" type="image/png" sizes="32x32" href="assets/media/DRALogo/DRA_LogoBlack.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/media/DRALogo/DRA_LogoBlack.png">
   <meta name="description"
@@ -31,10 +28,26 @@
 </head>
 
 <body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/media/DRAdvent.jpeg" alt="Bootstrap" width="50%">
+      </a>
+    </div>
+  </nav>
+
   <div class="text-center">
-  <div class="container d-inline-flex gap-1">
-    <div class="card" style="width: 18rem;">
-      <img src="assets/media/DRAelf.png" class="card-img-top" alt="...">
+    <!-- <div id="toc_container">
+      <p class="toc_title">Contents</p>
+      <ul class="toc_list">
+        <li><a href="#dec1">Heading 1</a>
+        <li><a href="#dec2">Heading 2</a>
+        <li><a href="#dec3">Heading 3</a>
+      </ul>
+    </div> -->
+  <div class="container d-flex flex-column m-3">
+    <div class="card mb-3" style="width: 18rem;">
+      <a id="dec1card"><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
       <div class="card-body">
         <h5 class="card-title">Dec 1</h5>
         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -54,8 +67,8 @@
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="assets/media/DRAelf.png" class="card-img-top" alt="...">
+    <div class="card mb-3" style="width: 18rem;">
+      <a id="dec2card"><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
       <div class="card-body">
         <h5 class="card-title">Dec 2</h5>
         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -63,7 +76,10 @@
         <p class="d-inline-flex gap-1">
           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dec2"
             aria-expanded="false" aria-controls="dec2">
-            Open (Science) me!
+            Open (Science) me! <br>
+            <div class="spinner-grow text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
           </button>
         </p>
         <div class="collapse" id="dec2">
@@ -74,6 +90,27 @@
         </div>
       </div>
     </div>
+
+        <div class="card mb-3" style="width: 18rem;">
+          <a id="dec3card"></a><img src="assets/media/DRAelf.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Dec 3</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p> -->
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dec3"
+                aria-expanded="false" aria-controls="dec3">
+                Open (Science) me!
+              </button>
+            </p>
+            <div class="collapse" id="dec3">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
+                activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+        </div>
 
 
   </div>
