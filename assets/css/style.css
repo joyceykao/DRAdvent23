@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Univers";
-  src: url("fonts/UniversCondensedRegular.ttf");
+  font-family: "Oswald";
+  src: url("fonts/Oswald-Regular.ttf")format(truetype);
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("fonts/Roboto-Regular.ttf");
+  src: url("fonts/Roboto-Regular.ttf")format(truetype);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Univers;
+  font-family: Oswald;
   font-weight: bold;
 
 }
